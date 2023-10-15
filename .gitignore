@@ -1,8 +1,8 @@
 # .gitignore for a .NET Core web API project
 
-# Binaries
-/bin/
-/obj/
+# Ignore bin and obj directories
+**/bin/
+**/obj/
 
 # User-specific configuration files
 appsettings.Development.json
@@ -16,6 +16,7 @@ appsettings.Local.json
 packages/
 
 # Visual Studio project folders
+.vs/
 .vs2017/
 .vs2019/
 
