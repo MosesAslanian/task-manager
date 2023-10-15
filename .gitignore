@@ -1,0 +1,36 @@
+# .gitignore for a .NET Core web API project
+
+# Binaries
+/bin/
+/obj/
+
+# User-specific configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs and temporary data
+*.log
+*.tmp
+
+# NuGet packages
+packages/
+
+# Visual Studio project folders
+.vs2017/
+.vs2019/
+
+# User-specific Visual Studio files
+*.suo
+*.user
+*.suo
+*.user
+*.userprefs
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Sensitive data and secrets
+secrets/
+secrets.json
